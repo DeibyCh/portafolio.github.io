@@ -2,7 +2,8 @@
 body{
     margin: 0;
     font-family: Poppins;
-    font-size: 12px;
+    background: linear-gradient(to bottom, #141414 0%, #212529 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
 }
 
 header{
@@ -42,20 +43,20 @@ header a{
 }
 .carousel .list .item .content{
     position: absolute;
-    top: 15%;
+    top: 55%;
     width: 1500px;
     max-width: 90%;
     left: 50%;
     transform: translateX(-50%);
     padding-right: 30%;
     box-sizing: border-box;
-    color: #fff;
+    color: #ffffff;
     text-shadow: 0 5px 10px #0004;
 
 }
+
 .carousel .list .item .content p {
     background: #3b3b3b65;
-    padding: 10px;
     border-radius: 2px;
 }
 .carousel .list .item .author{
@@ -68,11 +69,20 @@ header a{
     font-weight: bold;
     line-height: 1.3em;
 }
+.slide{
+
+    view-timeline-name: --encabezado;
+    view-timeline-axis: block;
+    animation-timeline: --encabezado;
+    animation-name: show;
+    animation-range: entry 80% cover 30%;
+    animation-fill-mode: both;
+}
 .encabezado{
     font-size: 3em;
     font-weight: bold;
     text-align: center;
-    color: #363636c4;
+    color: #a8a8a8d5;
     text-shadow: 0 5px 10px #0004;
 
     view-timeline-name: --encabezado;

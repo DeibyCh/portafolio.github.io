@@ -52,9 +52,16 @@ header a{
     box-sizing: border-box;
     color: #ffffff;
     text-shadow: 0 5px 10px #0004;
-
 }
-
+.nav-link{
+    transition: all 0.5;
+}
+.card{
+    transition: all 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
 .carousel .list .item .content p {
     background: #3b3b3b65;
     border-radius: 2px;
@@ -222,11 +229,6 @@ header a{
     animation: effectNext .5s linear 1 forwards;
 }
 
-@keyframes effectNext{
-    from{
-        transform: translateX(150px);
-    }
-}
 
 /* running time */
 

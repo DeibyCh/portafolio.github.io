@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,13 +22,13 @@
                   <a class="nav-link active text-white-50 " aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active text-white-50" href="#">Proyectos</a>
+                  <a class="nav-link active text-white-50" href="#proyectos">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active text-white-50" href="#">Contacto</a>
+                  <a class="nav-link active text-white-50" href="#footer">Contacto</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active text-white-50" href="#">Acerca de mi</a>
+                  <a class="nav-link active text-white-50" href="#about">Acerca de mi</a>
                 </li>
               </ul>
             </div>
@@ -39,47 +39,60 @@
     <!-- carousel -->
   <div class="carousel">
     <div class="list">
-      <div class="item">
+      <div class="item slide">
         <img src="image/img1.jpg">
           <div class="content">
             <div class="title">DEIBY ALFREDO CHANGO</div>
               <div class="topic">Tecnologo en Analisis y Desarrollo de software</div>
                 <div class="buttons">
-                  <button type="button" class="btn btn-outline-light">CONTACTO</button>
-                  <button type="button" class="btn btn-outline-light">Acerca de mi</button>
-                </div>
+                  <a class="card nav-link active text-white-80 btn btn-outline-light" href="#footer" >CONTACTO</a>
+                  <a class="card nav-link active text-black-80 btn btn-outline-light" href="#about" >ACERCA DE MI</a>                </div>
           </div>
       </div>
     </div>
   </div>
+
     <!--Acerca de mi-->
 
-    <div class="container-fluid p-2 ">
-      <div class="encabezado">ACERCA DE MI</div>
-    </div>
-    <div class="card mb-5  text-white bg-dark" style="max-width: 100%;">
-      <div class="row g-0">
-        <div class="col-md-5 mt-2 mb-2">
-          <img src="image/img5.jpg" class="img-fluid " alt="...">
-        </div>
-          <div class="col-md-7">
-            <div class="card-body">
-              <p class="card-text slide">
-                Actualmente estoy estudiando un tecnologo en Análisis y Desarrollo de Software, con el objetivo de actualizar mis habilidades y abrir nuevas oportunidades laborales en el campo de la tecnología. Me apasiona el mundo de la programación y estoy emocionado por aprender nuevas herramientas y técnicas que me permitan crecer profesionalmente.
-                <p class="card-text slide">
-                  En cuanto a mis logros, he sido reconocido en varias ocasiones por mi desempeño como operador de montacargas, destacando por mi atención al detalle, mi habilidad para trabajar en equipo, mi responsabilidad y mi compromiso con la seguridad en el trabajo. Estoy emocionado por lo que el futuro me depara y estoy ansioso por seguir aprendiendo y creciendo tanto en mi carrera como en mi vida personal.
-                </p>
-              </p>
+          <!--seccion 1-->
+          <div class="container-fluid p-2" id="about">
+            <div class="encabezado">ACERCA DE MI</div>
+          </div>    
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card mb-5  text-white bg-dark" style="max-width: 100%;">
+                  <div class="row g-0">
+                    <div class="col-md-4 p-2 mt-2 mb-2">
+                      <img src="image/img5.jpg" class="img-fluid " alt="...">
+                    </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <p class="card-text ">
+                            Actualmente estoy estudiando una tecnología en Análisis y Desarrollo de Software, con el objetivo de actualizar mis conocimientos y abrir nuevas oportunidades de empleo en el campo de la tecnología. Me apasiona el mundo de la programación y estoy emocionado por aprender nuevas herramientas y técnicas que me permitan crecer profesionalmente.
+                          <p class="card-text ">
+                            Mi objetivo es contribuir al éxito de las organizaciones a través de la creación de soluciones de software de calidad que satisfagan sus necesidades y objetivos comerciales.                </p>
+                          </p>
+                        </div>
+                      </div>
+                  </div>
+                </div>        
+              </div>
+
+              <!--seccion 2-->
+
+              <div class="col col-md-auto">
+                2 of 2
+              </div>
             </div>
-        </div>
-      </div>
-    </div>
+          </div>
+
    
     <!--Cards-->
-    <div class="container-fluid p-2">
-        <div class="encabezado">PROYECTOS REALIZADOS</p>
-    </div>
-        <div class="row row-cols-1 mt-4 row-cols-md-3 g-4 m-1 ">
+    <div class="container-fluid p-2"  id="proyectos">
+      <div class="encabezado">PROYECTOS REALIZADOS</p>
+      </div>
+        <div class="row row-cols-1 mt-4 row-cols-md-3 g-5 m-3 ">
            <!--Card 1-->
           <div class="col">
             <div class="card h-100">
@@ -159,54 +172,55 @@
             </div>
         </div>
       </div>
-      <footer class="footer ">
+    </div>
 
-        <!-- Widgets - Bootstrap Brain Component -->
-        <div class="bg-dark mt-5 py-3 py-md-5 py-xl-8  ">
-          <div class="container overflow-hidden">
-            <div class="row gy-3 gy-md-5 gy-xl-0 align-items-sm-center">
-              <div class="col-xs-12 col-sm-6 col-xl-3 order-0 order-xl-0">
-                <div class="footer-logo-wrapper text-center text-sm-start">
-                </div>
-              </div>
-              <div class="col-xs-12 col-xl-6 order-2 order-xl-1">
-                <ul class="nav justify-content-center">
-                  <li class="nav-item">
-                    <a class="nav-link link-secondary px-2 px-md-3" href="#!">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link link-secondary px-2 px-md-3" href="#!">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link link-secondary px-2 px-md-3" href="#!">Advertise</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link link-secondary px-2 px-md-3" href="#!">Terms</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link link-secondary px-2 px-md-3" href="#!">Privacy</a>
-                  </li>
-                </ul>
-              </div>
+    <!--copy-->
+      <footer id="footer">
+        <div class="row row-cols-4 mt-5">
+          <!-- Nombre-->
+          <div class="nav-link link-secondary ms-2 mt-3 fs-2 text-white">
+            <p class="fw-bold">DEIBY A</p>
+          </div>  
+          <!--seccion 2-->
+    
+            <div class="nav-link link-secondary px-2 px-md-3">
+              <a class="nav-link link-secondary px-2 px-md-3">Redes sociales</a>
+                <img src="image/facebook.png"  style="max-width: 15%;" alt="">
+                <img src="image/instagram.png"  style="max-width: 15%;" alt="">
+                <img src="image/linkedin.png"  style="max-width: 15%;" alt="">
+                <img src="image/github.png"  style="max-width: 15%;" alt="">
+
             </div>
+          <!-- Contacto-->
+            <div class="col-5 ">
+              <a class="nav-link link-secondary px-2 px-md-3">Contacto</a>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
           </div>
+          <!--seccion 4-->
+          <div class="nav-link link-secondary px-5 px-md-3">seccion 4</div>
         </div>
-      
-        <!-- Copyright-->
-        <div class="bg-dark text-white py-3 py-md-5 border-top border-light-subtle">
+
+      <!-- Copy -->  
+        <div class="bg-dark text-white py-3 py-md-3 border-top border-light-subtle">
           <div class="container overflow-hidden">
             <div class="row">
               <div class="col">
                 <div class="footer-copyright-wrapper text-center">
                   &copy; 2024 DeibyA
                 </div>
-                <div class="credits text-secondary text-center mt-2 fs-8">
+                <div class="credits text-secondary text-center  fs-8">
                 </div>
               </div>
             </div>
           </div>
         </div>
-      
       </footer>
 
 <script src="app.js"></script>

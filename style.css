@@ -82,7 +82,7 @@ header a{
     view-timeline-axis: block;
     animation-timeline: --encabezado;
     animation-name: show;
-    animation-range: entry 80% cover 30%;
+    animation-range: entry 100% cover 30%;
     animation-fill-mode: both;
 }
 .encabezado{
@@ -97,7 +97,7 @@ header a{
 
     animation-timeline: --encabezado;
     animation-name: show;
-    animation-range: entry 25% cover 50%;
+    animation-range: entry 55% cover 50%;
     animation-fill-mode: both;
 }
 .col{

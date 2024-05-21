@@ -10,7 +10,7 @@
 <body>
   <header>
     <!--nav bar-->
-    <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #444444da;">
+    <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #252525b2;">
       <div class="container-fluid">
         <a class="navbar-brand " href="#"></a>
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,16 +19,17 @@
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active text-white-50 " aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white-50" href="#proyectos">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white-50" href="#footer">Contacto</a>
+                  <a class="nav-link active text-white-50 " aria-current="page" href="#inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active text-white-50" href="#about">Acerca de mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white-50" href="#proyectos">Proyectos</a>
+                  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white-50" href="#footer">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -37,7 +38,7 @@
   </header>
  
     <!-- carousel -->
-  <div class="carousel">
+  <div class="carousel" id="inicio">
     <div class="list">
       <div class="item slide">
         <img src="image/img1.jpg">
@@ -78,21 +79,16 @@
                   </div>
                 </div>        
               </div>
-
-              <!--seccion 2-->
-
-              <div class="col col-md-auto">
-                2 of 2
-              </div>
+              
             </div>
           </div>
 
    
     <!--Cards-->
-    <div class="container-fluid p-2"  id="proyectos">
+    <div class="container-fluid p-2 "  id="proyectos">
       <div class="encabezado">PROYECTOS REALIZADOS</p>
       </div>
-        <div class="row row-cols-1 mt-4 row-cols-md-3 g-5 m-3 ">
+        <div class="row row-cols-1 mt-5 mb-5 row-cols-md-3 g-5 m-3 ">
            <!--Card 1-->
           <div class="col">
             <div class="card h-100">
@@ -178,8 +174,9 @@
       <footer id="footer">
         <div class="row row-cols-4 mt-5">
           <!-- Nombre-->
+          
           <div class="nav-link link-secondary ms-2 mt-3 fs-2 text-white">
-            <p class="fw-bold">DEIBY A</p>
+            <p class="fw-bold px-2">DEIBY A</p>
           </div>  
           <!--seccion 2-->
     
@@ -193,18 +190,19 @@
             </div>
           <!-- Contacto-->
             <div class="col-5 ">
-              <a class="nav-link link-secondary px-2 px-md-3">Contacto</a>
+              <a class="nav-link link-secondary px-0 ">Contacto</a>
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <label for="exampleFormControlInput1 " class="form-label link-secondary">Correo electronico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@example.com">
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                  <label for="exampleFormControlTextarea1" class="form-label link-secondary">Mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
+                <input class="btn btn-outline-secondary mb-3" type="submit" value="Enviar">
+
           </div>
           <!--seccion 4-->
-          <div class="nav-link link-secondary px-5 px-md-3">seccion 4</div>
         </div>
 
       <!-- Copy -->  

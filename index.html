@@ -29,7 +29,7 @@
                   
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active text-white-50" href="#footer">Contacto</a>
+                  <a class="nav-link active text-white-50" href="#contacto">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -46,7 +46,7 @@
             <div class="title">DEIBY ALFREDO CHANGO</div>
               <div class="topic">Tecnologo en Analisis y Desarrollo de software</div>
                 <div class="buttons">
-                  <a class="card nav-link active text-white-80 btn btn-outline-light" href="#footer" >CONTACTO</a>
+                  <a class="card nav-link active text-white-80 btn btn-outline-light" href="#contacto" >CONTACTO</a>
                   <a class="card nav-link active text-black-80 btn btn-outline-light" href="#about" >ACERCA DE MI</a>                </div>
           </div>
       </div>
@@ -56,13 +56,13 @@
     <!--Acerca de mi-->
 
           <!--seccion 1-->
-          <div class="container-fluid p-2" id="about">
+          <div class="container-fluid p-2 mt-5" id="about">
             <div class="encabezado">ACERCA DE MI</div>
           </div>    
           <div class="container">
             <div class="row">
               <div class="col">
-                <div class="card mb-5  text-white bg-dark" style="max-width: 100%;">
+                <div class="card mb-5  text-white bg-dark" style="max-width: 100%; border-radius: 5px;">
                   <div class="row g-0">
                     <div class="col-md-4 p-2 mt-2 mb-2">
                       <img src="image/img5.jpg" class="img-fluid " alt="...">
@@ -83,9 +83,32 @@
             </div>
           </div>
 
+          <!--seccion 2-->
+          <div class="container-fluid p-2 mb-3" id="about">
+            <div class="encabezado">CONOCIMIENTOS EN</div>
+          </div>    
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card text-white bg-dark" style="max-width: 100%; border-radius: 5px;">
+                  <div class="row g-0">
+                    <div class="">
+                      <img src="image/programas.png" class="img-fluid p-5" alt="...">
+                    </div>
+                    <div class="col">
+                      <div class="card-body">
+                        <p class="card-text ">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>        
+            </div>
+          </div>
    
     <!--Cards-->
-    <div class="container-fluid p-2 "  id="proyectos">
+    <div class="container-fluid p-2 mt-5"  id="proyectos">
       <div class="encabezado">PROYECTOS REALIZADOS</p>
       </div>
         <div class="row row-cols-1 mt-5 mb-5 row-cols-md-3 g-5 m-3 ">
@@ -171,26 +194,26 @@
     </div>
 
     <!--copy-->
-      <footer id="footer">
+      <footer id="footer mt-5">
         <div class="row row-cols-4 mt-5">
           <!-- Nombre-->
           
-          <div class="nav-link link-secondary ms-2 mt-3 fs-2 text-white">
-            <p class="fw-bold px-2">DEIBY A</p>
+          <div class="nav-link link-secondary ms-2 mt-3 fs-2 text-secondary">
+            <p class="fw-bold px-5">DEIBY A</p>
           </div>  
           <!--seccion 2-->
     
             <div class="nav-link link-secondary px-2 px-md-3">
               <a class="nav-link link-secondary px-2 px-md-3">Redes sociales</a>
-                <img src="image/facebook.png"  style="max-width: 15%;" alt="">
-                <img src="image/instagram.png"  style="max-width: 15%;" alt="">
-                <img src="image/linkedin.png"  style="max-width: 15%;" alt="">
-                <img src="image/github.png"  style="max-width: 15%;" alt="">
+                <a href="https://www.facebook.com/KB.2694"><img src="image/facebook.png" id="icon" alt="" style="display: none;"></a>
+                <a href="https://www.instagram.com/kb.tattooo/?hl=es"><img src="image/instagram.png"  id="icon" alt=""></a>
+                <a href="https://www.linkedin.com/in/deiby-chango-achinte-b295b0244/"><img src="image/linkedin.png"  id="icon"  alt=""></a>
+                <a href="https://github.com/DeibyCh"><img src="image/github.png"   id="icon" alt=""></a>
 
             </div>
           <!-- Contacto-->
             <div class="col-5 ">
-              <a class="nav-link link-secondary px-0 ">Contacto</a>
+              <a class="nav-link link-secondary px-0" id="contacto">Contacto</a>
                 <div class="mb-3">
                   <label for="exampleFormControlInput1 " class="form-label link-secondary">Correo electronico</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@example.com">

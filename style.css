@@ -126,13 +126,81 @@ header a{
 }
 
 #icon{
-    padding-right: 7px;
-    max-width: 15%;
     transition: 0.2s;
 }
 #icon:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
+
+#heximg{
+    height: 100px;
+    width: 100px;
+
+}
+.hex {
+    margin-top: 30px;
+    width: 140px;
+    height: 105px;
+    position: relative;
+    display: inline-block; 
+
+}
+    .hex:before {
+      content: " ";
+      width: 0;
+      height: 0;
+      border-bottom: 30px solid;
+      border-color: inherit;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      position: absolute;
+      top: -30px;
+      left: -1px;
+     }
+    .hex:after {
+      content: "";
+      width: 0;
+      position: absolute;
+      bottom: -30px;
+      left: 0px;
+      border-top: 30px solid;
+      border-color: inherit;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent; 
+    }
+
+    .hex.color-1 {
+      background: rgba(0, 153, 255, 0.76);
+      border-color: rgba(0, 153, 255, 0.76);
+      color: #FFB400; 
+    }
+    .hex.color-2 {
+      background: rgba(22, 234, 40, 0.644);
+      border-color: rgba(22, 234, 40, 0.644);
+      color: #EA16B1; 
+    }
+    .hex.color-3 {
+      background: rgba(255, 103, 1, 0.521);
+      border-color: rgba(255, 103, 1, 0.521);
+      color: #0157FF; 
+    }
+    .hex.color-4 {
+      background: rgba(3, 209, 158, 0.582);
+      border-color: rgba(3, 209, 158, 0.582);
+      color: #10D0A1; 
+    }
+    .hex.color-5 {
+      background: rgba(223, 208, 8, 0.671);
+      border-color: rgba(223, 208, 8, 0.671);
+      color: #0892B0; 
+    }
+    .hex.color-6 {
+      background: rgba(255, 0, 221, 0.548);
+      border-color: rgba(255, 0, 221, 0.548);
+      color: #FF7A00; 
+    }
+
+  
 /* thumbail */
 .thumbnail{
     position: relative;

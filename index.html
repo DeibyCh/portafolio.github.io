@@ -10,10 +10,10 @@
 <body>
   <header>
     <!--nav bar-->
-    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #5c5a5a9f;">
+    <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #5c5a5a9f;">
       <div class="container-fluid">
         <a class="navbar-brand " href="#"></a>
-          <button class="navbar-toggler z-2"  style="background-color: rgb(182, 102, 55);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler z-2"  style="background-color: rgba(46, 46, 46, 0);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarText">
@@ -41,7 +41,7 @@
   <div class="carousel" id="inicio">
     <div class="list">
       <div class="item slide">
-        <img src="image/img1.jpg">
+        <img src="image/portada.jpeg">
           <div class="content">
             <div class="title">DEIBY ALFREDO CHANGO</div>
               <div class="topic">Tecnologo en Analisis y Desarrollo de software</div>
@@ -62,10 +62,10 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <div class="card mb-5  text-white bg-dark" style="max-width: 100%; border-radius: 5px;">
+                <div class="card mb-5  text-white bg-dark" style="border-radius: 5px;">
                   <div class="row g-0">
-                    <div class="col-md-4 p-2 mt-2 mb-2">
-                      <img src="image/img5.jpg" class="img-fluid " alt="...">
+                    <div class="col-md-3 p-2 mt-2 mb-2">
+                      <img src="image/img5.jpg" style="border-radius: 120px; max-width: 80%;" class="img-fluid " alt="...">
                     </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -84,29 +84,110 @@
           </div>
 
           <!--seccion 2-->
-          <div class="container-fluid p-2 mb-3" id="about">
-            <div class="encabezado">CONOCIMIENTOS EN</div>
-          </div>    
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="card text-white bg-dark" style="max-width: 100%; border-radius: 5px;">
-                  <div class="row g-0">
-                    <div class="">
-                      <img src="image/programas.png" class="img-fluid p-5" alt="...">
+
+          <div class="section services-section text-white text-center bg-dark">
+            <div class="container">
+              <div class="row">
+                <div class="col"  data-aos-delay="">
+                  <h2 class="subheading container-fluid mt-5">TECNOLOGIAS APRENDIDAS</h2>
+                </div>		
+              </div>	
+                  
+              <!--php-->
+              <div class="row g-5 mt-5">
+                <div class="col-lg-4"  data-aos="fade-up" data-aos-delay="">
+                   <div class="feature-1 d-block">
+                    <div class="mb-3">
+                      <span class="hex color-1 mb-5"  id="icon" >
+                        <img src="image/php.svg" id="heximg" alt="">
+                      </span>
                     </div>
-                    <div class="col">
-                      <div class="card-body">
-                        <p class="card-text ">
-                        </p>
-                      </div>
+                    <div>
+                      <h3>PHP</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit</p>
+                    </div>
+                  </div>                
+                </div>
+
+                <!--python-->
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                  <div class="feature-1 d-block">
+                    <div class="mb-3">
+                      <span class="hex color-2 mb-5" id="icon">
+                        <img src="image/python.svg" id="heximg" alt="">
+                      </span>
+                    </div>
+                    <div>
+                      <h3>PYTHON</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit</p>
                     </div>
                   </div>
                 </div>
-              </div>        
-            </div>
+
+                <!--html-->
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                  <div class="feature-1 d-block">
+                    <div class="mb-3">
+                      <span class="hex color-3 mb-5" id="icon">
+                        <img src="image/html.svg" id="heximg" alt="">
+                      </span>
+                    </div>
+                    <div>
+                      <h3>HTML5</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!--css-->
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="">
+                  <div class="feature-1 d-block">
+                    <div class="mb-3">
+                      <span class="hex color-4 mb-5" id="icon">
+                        <img src="image/css.svg" id="heximg" alt="">
+                      </span>
+                    </div>
+                    <div>
+                      <h3>CSS</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit</p>
+                    </div>
+                  </div>                  
+                </div>
+
+                <!--javascript-->
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                  <div class="feature-1 d-block">
+                    <div class="mb-3">
+                      <span class="hex color-5 mb-5" id="icon">
+                        <img src="image/javascript.svg" id="heximg" alt="">
+                      </span>
+                    </div>
+                    <div>
+                      <h3>JAVASCRIPT</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!--GIT-->
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                  <div class="feature-1 d-block">
+                    <div class="mb-3">
+                      <span class="hex color-6 mb-5" id="icon">
+                        <img src="image/github.svg" id="heximg" alt="">
+                      </span>
+                    </div>
+                    <div>
+                      <h3>GITHUB</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit</p>
+                    </div>
+                  </div>
+                </div>
+              </div>	
+            </div>		
           </div>
-   
+        
+        
     <!--Cards-->
     <div class="container-fluid p-2 mt-5"  id="proyectos">
       <div class="encabezado">PROYECTOS REALIZADOS</p>
@@ -199,16 +280,16 @@
           <!-- Nombre-->
           
           <div class="nav-link link-secondary ms-2 mt-3 fs-2 text-secondary">
-            <p class="fw-bold px-5">DEIBY A</p>
+            <p class="fw-bold px-4">DEIBY A</p>
           </div>  
           <!--seccion 2-->
     
             <div class="nav-link link-secondary px-2 px-md-3">
               <a class="nav-link link-secondary px-2 px-md-3">Redes sociales</a>
-                <a href="https://www.facebook.com/KB.2694"><img src="image/facebook.png" id="icon" alt="" style="display: none;"></a>
-                <a href="https://www.instagram.com/kb.tattooo/?hl=es"><img src="image/instagram.png"  id="icon" alt=""></a>
-                <a href="https://www.linkedin.com/in/deiby-chango-achinte-b295b0244/"><img src="image/linkedin.png"  id="icon"  alt=""></a>
-                <a href="https://github.com/DeibyCh"><img src="image/github.png"   id="icon" alt=""></a>
+                <a href="https://www.facebook.com/KB.2694"><img src="" id="icon" alt="" style="display: none;"></a>
+                <a href="https://www.instagram.com/kb.tattooo/?hl=es"><img src=""  id="icon" alt=""></a>
+                <a href="https://www.linkedin.com/in/deiby-chango-achinte-b295b0244/"><img src=""  id="icon"  alt=""></a>
+                <a href="https://github.com/DeibyCh"><img src=""   id="icon" alt=""></a>
 
             </div>
           <!-- Contacto-->

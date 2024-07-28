@@ -126,36 +126,39 @@ header a{
 }
 
 #icon{
-    transition: 0.2s;
+    transition: 0.3s;
 }
 #icon:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
+    filter: drop-shadow(0px 0px 20px rgb(226, 226, 226));
 }
 
 #heximg{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+}
+#heximg:hover{
+    filter: drop-shadow(0px 0px 0px rgb(226, 226, 226));
 
 }
 .hex {
     margin-top: 30px;
-    width: 140px;
-    height: 105px;
+    width: 120px;
+    height: 80px;
     position: relative;
     display: inline-block; 
 
 }
-    .hex:before {
+.hex:before {
       content: " ";
       width: 0;
       height: 0;
       border-bottom: 30px solid;
       border-color: inherit;
-      border-left: 70px solid transparent;
-      border-right: 70px solid transparent;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
       position: absolute;
       top: -30px;
-      left: -1px;
+      left: 0px;
      }
     .hex:after {
       content: "";
@@ -165,8 +168,9 @@ header a{
       left: 0px;
       border-top: 30px solid;
       border-color: inherit;
-      border-left: 70px solid transparent;
-      border-right: 70px solid transparent; 
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent; 
+      left: 0;
     }
 
     .hex.color-1 {
